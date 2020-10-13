@@ -1,0 +1,6 @@
+A=int(input("Введите А"))
+B=int(input("Введите B"))
+S=0
+for i in range(A,B+1):
+    S=S+i
+print(S)

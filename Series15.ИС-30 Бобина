@@ -1,0 +1,11 @@
+K=int(input("Введите K"))
+Result=0
+index=0
+while True:
+    N=int(input("Введите число последовательности"))
+    index+=1
+    if N==0:
+          break
+    if N>K and Result==0:
+          Result=index
+print(Result)

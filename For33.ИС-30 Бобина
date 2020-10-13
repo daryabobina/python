@@ -1,0 +1,10 @@
+Kn2 = 1
+print(Kn2)
+Kn1 = 1
+print(Kn1)
+N = int(input("Введите колиество чисел:"))
+for k in range(3,N+1,1):
+    Kn = Kn2+Kn1
+    print(Kn)
+    Kn2=Kn1
+    Kn1=Kn

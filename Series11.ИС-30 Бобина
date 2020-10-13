@@ -1,0 +1,9 @@
+N=int(input("Введите N"))
+K=int(input("Введите K"))
+X=False
+print('Введите',N,'чисел по очереди')
+for i in range(1, N+1):
+    A=int(input())
+    if not(X) and (A < K):
+        X = True
+print(X)

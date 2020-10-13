@@ -1,0 +1,6 @@
+A=int(input("Введите А"))
+B=int(input("Введите B"))
+Result=A-B
+while Result>=B:
+    Result=Result-B
+print(Result)

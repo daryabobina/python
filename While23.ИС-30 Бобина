@@ -1,0 +1,8 @@
+A=int(input("Введите А"))
+B=int(input("Введите B"))
+while B!=0 and A!=0:
+    if A>B:
+        A=A%B
+    else:
+        B=B%A
+print(A+B)
