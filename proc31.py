@@ -8,7 +8,7 @@ def IsPalindrom(k):
     else:
         return False
 Result=0
-for i in range(0,3):
+for i in range(0,10):
     k = int(input("Введите число K="))
     if IsPalindrom(k)==True:
        Result=Result+1
